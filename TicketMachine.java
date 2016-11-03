@@ -79,6 +79,7 @@ public class TicketMachine
                 if (limitetickets <= 0) {
                       System.out.println("No hay tickets");  
                     }
+                else {
                 // Simulate the printing of a ticket.
                 System.out.println("##################");
                 System.out.println("# The BlueJ Line");
@@ -106,7 +107,7 @@ public class TicketMachine
                 balance = balance - price;
                 // Se reduce los tickets
                 limitetickets = limitetickets-1;
-                
+                }
             }
             else {
                 System.out.println("You must insert at least: " +
@@ -119,6 +120,7 @@ public class TicketMachine
                 if (limitetickets <= 0) {
                       System.out.println("No hay tickets");  
                     }
+                else {
                 // Simulate the printing of a ticket.
                 System.out.println("##################");
                 System.out.println("# The BlueJ Line");
@@ -133,6 +135,7 @@ public class TicketMachine
                 balance = balance - price;
                 // Se reduce los tickets
                 limitetickets = limitetickets-1;
+                }
             }
             else {
                 System.out.println("You must insert at least: " +
